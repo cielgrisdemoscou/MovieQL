@@ -1,0 +1,35 @@
+{
+  "name": "movieql",
+  "version": "1.0.0",
+  "description": "Movie API with Graphql",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cielgrisdemoscou/MovieQL.git"
+  },
+  "keywords": [
+    "Graphql"
+  ],
+  "author": "Ted.H",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cielgrisdemoscou/MovieQL/issues"
+  },
+  "homepage": "https://github.com/cielgrisdemoscou/MovieQL#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-syntax-import-meta": "^7.7.4",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-stage-3": "^7.0.0",
+    "nodemon": "^2.0.2"
+  }
+}
